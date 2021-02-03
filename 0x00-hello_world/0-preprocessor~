@@ -1,0 +1,2 @@
+#!/bin/bash
+cpp $CFILE |cat 2>c  
