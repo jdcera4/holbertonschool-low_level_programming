@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(void)
 {
   printf("Size of a char: %lu",sizeof(char));
@@ -13,4 +12,4 @@ int main(void)
   printf("Size o a float: %lu",sizeof(float));
   printf(" byte(s)\nx");
   return(0);
-}
+} 
