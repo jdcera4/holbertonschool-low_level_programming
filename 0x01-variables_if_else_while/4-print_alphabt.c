@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ * main - Entry point and execute alphabt
+ *
+ * Return: 0
+ */
+
 int main(void)
 {
   char i;
