@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
+ * main - Entry point and execute the numbers printf
  *
- *
- *
+ * Return: 0
  */
 
 int main(void)
