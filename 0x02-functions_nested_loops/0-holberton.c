@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 /**
  * main - print Holberton
  *
@@ -9,6 +7,15 @@
 
 int main(void)
 {
-  puts ("Holberton");
+  putchar ('H');
+  putchar ('o');
+  putchar ('l');
+  putchar ('b');
+  putchar ('e');
+  putchar ('r');
+  putchar ('t');
+  putchar ('o');
+  putchar ('n');
+  putchar ('\n');
   return (0);
 }
