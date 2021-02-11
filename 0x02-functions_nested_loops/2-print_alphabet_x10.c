@@ -1,13 +1,20 @@
+#include <stdio.h>
 #include "holberton.h"
-#include "prinx10.h"
-/**
- * main -Entry ponint function
- *
- * Return: 0
- */
 
-int main(void)
+/**
+ * print_alphabet_x10 - print x10 the alphabet function
+ *
+ */
+void print_alphabet_x10(void)
 {
-  print_alphabet_x10();
-  return (0);
+	char i;
+	int o;
+
+	for (i = 1; i <= 10; i++)
+	{
+	_putchar ('\n');
+	for (o = 'a'; o <= 'z'; ++o)
+	_putchar (o);
+	}
+	_putchar ('\n');
 }
