@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include "prinx10.h"
 /**
  * main -Entry ponint function
  *
