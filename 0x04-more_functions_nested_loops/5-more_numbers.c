@@ -1,4 +1,3 @@
-  
 #include "holberton.h"
 
 /**
@@ -20,9 +19,10 @@ void more_numbers(void)
 	b = x;
 	else
 	{
-	a = x / 10; b = x % 10;
+	a = x / 10;
+	b = x % 10;
 	_putchar('0' + a);
-			}
+	}
 	_putchar('0' + b);
 	}
 	_putchar('\n');
