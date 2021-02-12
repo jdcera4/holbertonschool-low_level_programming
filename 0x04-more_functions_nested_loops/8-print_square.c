@@ -1,24 +1,24 @@
 #include "holberton.h"
 
 /**
- * print_diagonal - prints diagonal line
- * @n: prints lines
- * Return: 0
+ * print_square - prints n times diagonal
+ * @size: the size of the square
+ * Return: always 0
  */
 void print_square(int size)
 {
-  int a;
-  int b;
+	int a;
+	int b;
 
-  if (size > 0 )
-    {
-      for (a = 1; a <= size; a++)
+	if (size > 0)
 	{
-	  for (b = 1; b < a; b++)
-	  _putchar('#');
-    _putchar('\n');
+		for (a = 1; a <= size; a++)
+		{
+			for (b = 1; b <= size; b++)
+				_putchar('#');
+			_putchar('\n');
+		}
 	}
-    }
-  else
-    _putchar('\n');
+	else
+		_putchar('\n');
 }
