@@ -1,15 +1,15 @@
 #include "holberton.h"
 /**
- * print_numbers - prints 0123456789\n
+ * print_numbers - prints 0 - 9
  *
  * Return: void
  */
 
 void print_numbers(void)
 {
-	int a;
+	char a;
 
-	for (a = 0; a <= 9; a++)
+	for (a = '0'; a <= '9'; a++)
 	{
 	_putchar(a);
 	}
