@@ -1,10 +1,7 @@
 #include "holberton.h"
 /**
- * _putchar - writes the character
- * @c:The character to print
- * Return: on sucess 1
- * On error, -1 is returned, and errno is set appropriately.
- *
+ * _puts - puts
+ * @str:The character to print
  *
  */
 
@@ -16,5 +13,5 @@ void _puts(char *str)
 		str++;
 	}
 	_putchar ('\n');
-	
+
 }
