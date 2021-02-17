@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * _puts - puts
- * @str:The character to print
+ * print_rev - print rev
+ * @s:The character to print
  *
  */
 
