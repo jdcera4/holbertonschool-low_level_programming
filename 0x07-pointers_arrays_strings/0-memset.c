@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
-* _memset - the function print 0x01 95
+/**
+* _memset - prints buffer in hexa
 * @s: variable puntero
 * @b: content array
 * @n:cantidad print
