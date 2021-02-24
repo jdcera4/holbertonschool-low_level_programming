@@ -1,9 +1,11 @@
 #include "holberton.h"
+
 /**
- * _puts - puts
- * @str:The character to print
+ * _puts_recursion - puts
+ * @s:The character to print
  *
  */
+
 void _puts_recursion(char *s)
 {
 	while (*s)
