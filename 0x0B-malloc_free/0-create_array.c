@@ -1,10 +1,9 @@
 #include "holberton.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
  * create_array - prints buffer in hexa
- * @c: the address of memory to print
+ * @: the address of memory to print
  * @size: the size of the memory to print
  *
  * Return: Nothing.
@@ -13,7 +12,7 @@
 char *create_array(unsigned int size, char c)
 {
 	char *punt;
-	unsigned int i;
+	unsigned int o;
 
 	if (size == 0)
 		return (0);
@@ -23,8 +22,8 @@ char *create_array(unsigned int size, char c)
 	if (punt == 0)
 		return (0);
 
-	for (i = 0; i < size; i++)
-		punt[i] = c;
+	for (o = 0; o < size; o++)
+		punt[o] = c;
 
 	return (punt);
 }
