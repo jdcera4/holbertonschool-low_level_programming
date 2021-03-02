@@ -1,2 +1,2 @@
 #!/bin/bash
-cpp -S -masm=intel $CFILE > intel.s 
+cpp -S -masm=intel $CFILE
