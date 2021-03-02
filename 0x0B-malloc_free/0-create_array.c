@@ -3,10 +3,10 @@
 
 /**
  * create_array - prints buffer in hexa
- * @: the address of memory to print
+ * @c: the address of memory to print
  * @size: the size of the memory to print
  *
- * Return: Nothing.
+ * Return: punt or null.
  */
 
 char *create_array(unsigned int size, char c)
