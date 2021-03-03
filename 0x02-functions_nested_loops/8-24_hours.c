@@ -1,4 +1,3 @@
-  
 #include "holberton.h"
 /**
  * jack_bauer - o'clock
