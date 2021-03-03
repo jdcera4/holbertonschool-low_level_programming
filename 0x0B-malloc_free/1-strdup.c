@@ -10,11 +10,14 @@
 
 char *_strdup(char *str)
 {
-	int x, z;
+	int x = 0, z;
 	char *punt;
 
-	for (x = 0; str[x] != 00; x++)
-		;
+	if (str == NULL)
+		return (NULL);
+
+	while (str[x] != 00)
+		x++;
 
 	punt = malloc(sizeof(char) * (x + 1));
 
