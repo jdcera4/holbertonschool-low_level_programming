@@ -24,6 +24,5 @@ char *_strdup(char *str)
 	for (z = 0; z <= x; z++)
 		punt[z] = str[z];
 
-	punt[z] = 00;
 	return (punt);
 }
