@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _islower - Checks whether c is a lowercase letter
+ * _isalpha - Checks whether c is a lowercase letter
  * @c: letter to return
  * Return: void
  */
