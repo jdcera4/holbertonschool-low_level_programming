@@ -3,17 +3,17 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * _strdup - check the code for Holberton School students.
+ * @str: pointer
  * Return: Always 0.
  */
 
 char *_strdup(char *str)
 {
-	int x,z;
+	int x, z;
 	char *punt;
 
-	for (x = 0; str[x] !=00; x++)
+	for (x = 0; str[x] != 00; x++)
 		;
 
 	punt = malloc(x * sizeof(char));
