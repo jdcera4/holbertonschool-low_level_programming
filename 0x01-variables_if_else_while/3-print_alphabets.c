@@ -11,13 +11,13 @@
 
 int main(void)
 {
-  char i;
-  char a;
+	char i;
+	char a;
 
-  for (i = 'a'; i <= 'z'; ++i)
-    putchar(i);
-  for (a = 'A'; a <= 'Z'; ++a)
-    putchar(a);
-  putchar('\n');
-  return(0);
+	for (i = 'a'; i <= 'z'; ++i)
+		putchar(i);
+	for (a = 'A'; a <= 'Z'; ++a)
+		putchar(a);
+	putchar('\n');
+	return (0);
 }
