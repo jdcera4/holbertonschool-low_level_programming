@@ -1,1 +1,0 @@
-# Solucion proyecto introduccion a C
