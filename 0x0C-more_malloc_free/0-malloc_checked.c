@@ -7,8 +7,7 @@
 * malloc_checked - funcion que asigna memoria con la funcion malloc
 * @b: variable espace memory
 *
-* Returns: 98 if is file
-*
+* Return: 98 if is file
 */
 
 void *malloc_checked(unsigned int b)
@@ -21,5 +20,4 @@ void *malloc_checked(unsigned int b)
 		exit(98);
 
 	return (punt);
-	free(punt);
 }
