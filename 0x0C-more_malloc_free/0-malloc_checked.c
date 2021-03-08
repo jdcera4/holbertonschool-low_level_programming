@@ -4,10 +4,10 @@
 #include <stdint.h>
 
 /**
-* malloc_checked - function malloc
+* malloc_checked - funcion que asigna memoria con la funcion malloc
 * @b: variable espace memory
 *
-* Returns: punt
+* Returns: 98 if is file
 *
 */
 
