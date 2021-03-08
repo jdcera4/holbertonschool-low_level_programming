@@ -15,6 +15,11 @@ void *malloc_checked(unsigned int b)
 {
 	int *punt;
 
+	if (b == o)
+	{
+		return (NULL);
+	}
+
 	punt = malloc(b);
 
 	if (punt == 0)
