@@ -1,6 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 
 /**
 * malloc_checked - function malloc
@@ -17,7 +18,7 @@ void *malloc_checked(unsigned int b)
 	punt = malloc(b);
 
 	if (!punt)
-		return (98);
+		exit (98);
 
 	return (punt);
 }
