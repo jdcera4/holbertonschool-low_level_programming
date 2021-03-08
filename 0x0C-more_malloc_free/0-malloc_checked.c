@@ -6,7 +6,7 @@
 /**
 * malloc_checked - function malloc
 * @b: variable espace memory
-* @punt: pointer
+*
 * Returns: punt
 *
 */
@@ -17,8 +17,8 @@ void *malloc_checked(unsigned int b)
 
 	punt = malloc(b);
 
-	if (!punt)
-		exit (98);
+	if (punt == 0)
+		exit(98);
 
 	return (punt);
 }
