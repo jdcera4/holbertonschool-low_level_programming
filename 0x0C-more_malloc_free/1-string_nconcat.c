@@ -1,0 +1,60 @@
+#include "holberton.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+*
+*
+*
+*
+*
+*/
+
+char *string_nconcat(char *s1, char *s2, unsigned int n)
+{
+	char *p;
+	unsigned int i, j, l;
+
+	if (s1 == NULL)
+	{
+		s1 = "";
+	}
+
+	if (s2 == NULL)
+	{
+		s2 = "";
+	}
+
+	for (i = 0; s1[i] != '\0'; i++)
+	{
+	}
+	i++;
+	for (j = 0; s2[j] != '\0'; j++)
+	{
+	}
+	j++;
+
+	if (n >= j)
+		n = j;
+
+	p = malloc(i + (n * sizeof(s2)) * sizeof(*p));
+
+	if (!p)
+	{
+		return (NULL);
+	}
+
+	for (i = 0; s1[i] != '\0'; i++)
+	{
+		p[i] = s1[i];
+	}
+
+	for (l = 0; s2[l] != '\0' && l < n; l++, i++)
+	{
+		p[i] = s2[l];
+	}
+
+	p[i] = '\0';
+
+	return (p);
+}
