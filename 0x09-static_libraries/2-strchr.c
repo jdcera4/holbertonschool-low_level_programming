@@ -1,17 +1,6 @@
 #include "holberton.h"
 
 /**
- * main - writes the character
- * Return: 0
- *
- */
-
-int main(void)
-{
-	return (0);
-}
-
-/**
  * _strchr - print half char
  * @s: string
  * @c: half

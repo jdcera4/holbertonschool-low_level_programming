@@ -1,17 +1,6 @@
 #include <stdio.h>
 
 /**
- * main - writes the character
- * Return: 0
- *
- */
-
-int main(void)
-{
-	return (0);
-}
-
-/**
  * _strlen - returns the length of a string
  * @s: string to find length of
  *

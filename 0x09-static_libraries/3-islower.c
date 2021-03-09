@@ -1,17 +1,6 @@
 #include "holberton.h"
 
 /**
- * main - writes the character
- * Return: 0
- *
- */
-
-int main(void)
-{
-	return (0);
-}
-
-/**
  * _islower - Checks whether c is a lowercase letter
  * @c: letter to return
  * Return: void

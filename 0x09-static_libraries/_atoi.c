@@ -1,14 +1,4 @@
 #include <unistd.h>
-/**
- * main - writes the character
- * Return: 0
- *
- */
-
-int main(void)
-{
-	return (0);
-}
 
 /**
  * _atoi - writes the character

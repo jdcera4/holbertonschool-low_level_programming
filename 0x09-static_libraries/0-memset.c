@@ -1,17 +1,6 @@
 #include <stdio.h>
 
 /**
- * main - writes the character
- * Return: 0
- *
- */
-
-int main(void)
-{
-	return (0);
-}
-
-/**
 * _memset - prints buffer in hexa
 * @s: variable puntero
 * @b: content array

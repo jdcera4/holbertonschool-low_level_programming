@@ -1,17 +1,6 @@
 #include "holberton.h"
 
 /**
- * main - writes the character
- * Return: 0
- *
- */
-
-int main(void)
-{
-	return (0);
-}
-
-/**
  * _strncat - Hello world
  * @dest: First variable
  * @src: second variable

@@ -2,17 +2,6 @@
 #include <stdio.h>
 
 /**
- * main - writes the character
- * Return: 0
- *
- */
-
-int main(void)
-{
-	return (0);
-}
-
-/**
  * _memcpy - prints buffer in hexa
  * @dest: the address of memory to print
  * @src: the size of the memory to print

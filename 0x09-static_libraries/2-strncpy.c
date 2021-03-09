@@ -1,17 +1,6 @@
 #include "holberton.h"
 
 /**
- * main - writes the character
- * Return: 0
- *
- */
-
-int main(void)
-{
-	return (0);
-}
-
-/**
  * _strncpy - copy a string
  * @dest: ptr dest
  * @src: ptr src
