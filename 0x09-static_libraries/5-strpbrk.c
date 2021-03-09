@@ -2,13 +2,13 @@
 
 /**
  *_strpbrk - compare 2 strings
- * @s1: 1
- * @s2: 2
+ * @s: 1
+ * @accept: 2
  * Return: int
  *
 */
 
-int _strpbrk(char *s1, char *s2)
+char *_strpbrk(char *s, char *accept)
 {
 	return (0);
 }
