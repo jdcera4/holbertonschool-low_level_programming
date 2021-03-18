@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - print name
+ * @argc: int parameter
+ * @argv: char* parameter
+ *
+ * Return: punt or null.
+ */
 
 int main(int argc _attribute_((unused)), char *argv)
 {
