@@ -51,4 +51,3 @@ int main(void)
     free_grid(grid, 4);
     return (0);
 }
-|1  
