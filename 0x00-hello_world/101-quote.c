@@ -8,13 +8,6 @@
 
 int main(void)
 {
-	char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	int i = 0;
-
-	for (i = 0; a[i] != '\0'; i++)
-	{
-		putchar (a[i]);
-	}
-	putchar('\n');
+	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (0);
 }
