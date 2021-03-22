@@ -10,14 +10,13 @@
 
 int main(int argc, char *argv[] __attribute__((unused)))
 {
-    int count = 0;
+	int count = 0;
 
-      for (count = 1; count < argc; )
+	for (count = 1; count < argc; )
 	{
-        printf("%i\n", count);
-        count++;
+		printf("%i\n", count);
+		count++;
 	}
-    
 
-  return 0;
+	return (0);
 }
