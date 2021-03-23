@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * rev_string - check the code for Holberton School students.
+ * @s: a string
  * Return: Always 0.
  */
 
@@ -16,10 +16,10 @@ void rev_string(char *s)
 		c++;
 	}
 	c--;
-	for(i = 0; i < c; i++, c--)
+	for (i = 0; i < c; i++, c--)
 	{
 		j = s[i];
 		s[i] = s[c];
 		s[c] = j;
-    }
+	}
 }
