@@ -3,7 +3,7 @@
 /**
  * puts_half - check the code for Holberton School students.
  *
- * @s: pointer 
+ * @str: pointer
  */
 void puts_half(char *str)
 {
@@ -15,11 +15,18 @@ void puts_half(char *str)
 	}
 	n = i / 2;
 	printf("%d\n", n);
-   
-   for (j = n; j < i; j++)
-   {
-	   _putchar(str[j]);
-   }
+	if (i % 2 != 0)
+	{
+		n = (i - 1) / 2;
+		_putchar(str[n]);
+	}
+	else
+	{
+		for (j = n; j < i; j++)
+		{
+			_putchar(str[j]);
+		}
 
+	}
 	_putchar('\n');
 }
