@@ -13,4 +13,8 @@ void free_grid(int **grid, int height);
 
 char *argstostr(int ac, char **av);
 
+char *_strcpy(char *dest, char *src);
+
+int _strlen(char *s);
+
 #endif
