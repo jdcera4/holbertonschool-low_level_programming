@@ -14,7 +14,6 @@ void puts_half(char *str)
 		i++;
 	}
 	n = i / 2;
-	printf("%d\n", n);
 	if (i % 2 != 0)
 	{
 		n = (i - 1) / 2;
