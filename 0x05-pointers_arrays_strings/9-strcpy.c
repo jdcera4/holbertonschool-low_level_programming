@@ -2,19 +2,20 @@
 #include <stdio.h>
 
 /**
- * puts2 - check the code for Holberton School students.
- * @str: a string
- * Return: Always 0.
+ * _strcpy - check the code for Holberton School students.
+ * @dest: a string
+ * @src: a string
+ * Return: dest
  */
 
 char *_strcpy(char *dest, char *src)
 {
 	int i;
 
-    for (i = 0; src[i] != '\0'; i++)
-    {
-        dest[i] = src[i];
-    }
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
 
-    return (dest);
+	return (dest);
 }
