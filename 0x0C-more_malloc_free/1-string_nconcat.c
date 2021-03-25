@@ -24,12 +24,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (i = 0; s1[i] != '\0'; i++)
 	{
 	}
+	i++;
 
 	for (j = 0; s2[i] != '\0'; j++)
 	{
 	}
+	j++;
 
-	if (n >= j)
+	if (n < j)
 		j = n;
 
 	j += i;
@@ -38,7 +40,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (!p)
 	{
 		return (NULL);
-		printf("Error");
 	}
 
 	for (i = 0; s1[i] != '\0'; i++)
