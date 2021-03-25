@@ -11,7 +11,16 @@
  * Return: Nothing.
  */
 
-void *_calloc(unsigned int nmemb, unsigned int size);
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	
+	int *p;
+
+	p = malloc(nmemb * size);
+
+	if (!p)
+	{
+		return (NULL);
+	}
+
+	return (p);
 }
