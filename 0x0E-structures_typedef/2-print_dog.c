@@ -2,8 +2,8 @@
 #include "dog.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * print_dog- check the code for Holberton School students.
+ * @d: pointer of structure
  * Return: Always 0.
  */
 
