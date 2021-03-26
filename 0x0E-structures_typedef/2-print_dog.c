@@ -9,16 +9,18 @@
 
 void print_dog(struct dog *d)
 {
+	char* p = NULL;
+
 	if (!d)
 	{
-		printf("mil");
+		printf("%s", p);
 	}
 
 	if (d)
 	{
 		if (!d->name)
 		{
-			printf("nil");
+			printf("Name: %s", p);
 		}
 		printf("Name: %s\n Age: %.6f\n Owner: %s\n", d->name, d->age, d->owner);
 	}
