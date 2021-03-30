@@ -1,11 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <fcntl.h>
 #include <holberton.h>
+
 /**
+* read_textfile - bread file
+* @filename: pointer of av
+* @letters: letters
 *
-*
-*
+* Return: print
 */
 
 ssize_t read_textfile(const char *filename, size_t letters)
