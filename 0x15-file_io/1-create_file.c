@@ -41,7 +41,7 @@ int create_file(const char *filename, char *text_content)
 	}
 	if (text_content != NULL)
 	{
-		print = write(oupen, filename, _strlen(text_content));
+		print = write(oupen, text_content, _strlen(text_content));
 		if (print == -1)
 		{
 			return (-1);
