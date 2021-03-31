@@ -50,7 +50,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	}
 
 	print = write(oupen, text_content, lon);
-	if (print == NULL)
+	if (print == -1)
 	{
 		return (-1);
 	}
