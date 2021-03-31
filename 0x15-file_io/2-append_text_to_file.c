@@ -19,7 +19,7 @@ int _strlen(char *s)
 }
 
 /**
- * create_file - create file
+ * append_text_to_file - create file
  * @filename: pointer of av
  * @text_content: letters
  * Return: Always 0.
