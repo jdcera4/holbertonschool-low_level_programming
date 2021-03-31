@@ -1,33 +1,65 @@
 #include <stdio.h>
+#include "holberton.h"
 #include <stdlib.h>
+#include <ctype.h>
+
+int _digit(char *c);
 
 /**
- * main - print name
- * @argc: int parameter
- * @argv: char* parameter
- *
- * Return: punt or null.
+ * main - add numbers recived as arguments
+ * @argc:Counter of arguments
+ * @argv: arguments
+ * Return: 0 if have more than 1 arguments.
+ */
+int main(int argc, char *argv[])
+{
+	int i, sum = 0;
+
+	if (argc == 1)
+	{
+		printf("0\n");
+		return (0);
+	}
+	if (argc > 1)
+	{
+		for (i = 1; i < argc; i++)
+		{
+			if (_digit(argv[i]))
+			{
+				sum = sum + atoi(argv[i]);
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
+
+		}
+		printf("%d\n", sum);
+	}
+	return (0);
+}
+
+/**
+ * _digit - Entry point
+ * @c: Variable
+ * Return: 1 is is digit and 0 if is otherwise
  */
 
-int main(int argc __attribute__((unused)), char *argv[])
+int _digit(char *c)
 {
-	int val1, result, i;
+	int i = 0;
 
-    for (i = 0; argv[i] != '\0'; i++)
-    {
-        if (argv[i] != "-")
-        {
-            printf("Error");
-            return (1);
-        }
-        else
-        {
-            val1 = atoi(argv[i]);
-            result = val1 + val1;
-            printf("%d", result);
-        }
-    }
-
-	
-	return (0);
+	while (c[i] != '\0')
+	{
+		if (isdigit(c[i]))
+		{
+			i++;
+		}
+		else
+		{
+			return (0);
+		}
+	}
+	return (1);
 }
